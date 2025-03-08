@@ -1,0 +1,7 @@
+to aceess this data set you simply need to run pip install scvi into your env and import it into your file 
+
+
+import scvi
+adata = scvi.data.pbmc_dataset()
+
+
