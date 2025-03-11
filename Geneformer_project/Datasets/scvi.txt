@@ -5,3 +5,38 @@ import scvi
 adata = scvi.data.pbmc_dataset()
 
 
+
+obs: 'Sample Characteristic[organism]',
+'Sample Characteristic Ontology Term[organism]', 
+'Sample Characteristic[individual]', 
+'Sample Characteristic Ontology Term[individual]', 
+'Sample Characteristic[sex]', 
+'Sample Characteristic Ontology Term[sex]', 
+'Sample Characteristic[age]', 
+'Sample Characteristic Ontology Term[age]', 
+'Sample Characteristic[developmental stage]', 
+'Sample Characteristic Ontology Term[developmental stage]', 
+'Sample Characteristic[organism part]', 
+'Sample Characteristic Ontology Term[organism part]', 
+'Sample Characteristic[sampling site]', 
+'Sample Characteristic Ontology Term[sampling site]', 
+'Sample Characteristic[disease]', 
+'Sample Characteristic Ontology Term[disease]', 
+'Sample Characteristic[organism status]', 
+'Sample Characteristic Ontology Term[organism status]', 
+'Sample Characteristic[cause of death]', 
+'Sample Characteristic Ontology Term[cause of death]', 
+'Sample Characteristic[clinical history]', 
+'Sample Characteristic Ontology Term[clinical history]', 
+'Factor Value[disease]', 
+'Factor Value Ontology Term[disease]', 
+'Factor Value[sampling site]', 
+'Factor Value Ontology Term[sampling site]', 
+'Factor Value[inferred cell type - ontology labels]', 
+'Factor Value Ontology Term[inferred cell type - ontology labels]', 
+'Factor Value[inferred cell type - authors labels]', 
+'Factor Value Ontology Term[inferred cell type - authors labels]', 
+'str_batch', 
+'celltype'
+
+
