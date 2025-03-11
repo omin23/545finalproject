@@ -36,5 +36,5 @@ df = adata.obs[["gene_sequence"]]
 
 df["description"] = "This dataset contains gene sequences and binary labels."
 
-print(df.head())  # Preview
+print(df.head())
 
