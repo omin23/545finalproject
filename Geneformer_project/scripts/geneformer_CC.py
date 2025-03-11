@@ -1,12 +1,7 @@
 from Geneformer.geneformer import Classifier
 import scanpy as sc
-import anndata
 import datetime
 import os
-# import scvi
-# this is to import the scvi package and test the scvi package
-# adata = scvi.data.pbmc_dataset()
-
 
 current_date = datetime.datetime.now()
 datestamp = f"{str(current_date.year)[-2:]}{current_date.month:02d}{current_date.day:02d}{current_date.hour:02d}{current_date.minute:02d}{current_date.second:02d}"
