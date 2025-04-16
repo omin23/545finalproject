@@ -1,5 +1,5 @@
 from datasets import Dataset, DatasetDict
-from transformers import AutoTokenizer
+from Geneformer.geneformer import tokenizer 
 import scanpy as sc
 import harmonypy as hm
 import datetime
@@ -23,14 +23,11 @@ adata = scvi.data.pbmc_dataset()
 genes = np.array(adata.var_names)
 expr_matrix = adata.X
 
-def tokenize_cell_expression(expression_row):
-    """Sort genes by expression level and create a gene sequence"""
-    sorted_gene_indices = np.argsort(-expression_row) 
-    sorted_genes = genes[sorted_gene_indices]
-    return " ".join(sorted_genes)
+# Tokenize sequences
+
 
 # Convert each cell's expression into a tokenized sequence
-adata.obs["gene_sequence"] = [tokenize_cell_expression(expr_matrix[i, :]) for i in range(expr_matrix.shape[0])]
+adata.obs["gene_sequence"] = [tokenizer(expr_matrix[i, :]) for i in range(expr_matrix.shape[0])]
 
 # Assume we have class labels for classification (modify as needed)
 df = adata.obs[["gene_sequence"]]

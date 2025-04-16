@@ -14,7 +14,6 @@ output_dir = f"Geneformer_project/runs/{datestamp}"
 
 # get the data from the scanpy package
 adata = sc.read("Datasets/filtered_ms_adata.h5ad")
-print(adata)
 
 
 # make the directory and catch any errors that may occur
