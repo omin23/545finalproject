@@ -3,7 +3,8 @@
 
 
 
-
+geneformer_dev
+scFoundationModels
 
 *.pem
 *.db
@@ -15,7 +16,6 @@ session.json
 bundle.js
 *.js.map
 **/e2e/test_cypress_hello.cy.js
-# Don't include the screenshots and videos that Cypress generates in headless mode.
 **/cypress/videos
 **/cypress/screenshots
 
