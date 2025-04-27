@@ -9,7 +9,7 @@ con = Console.Console()
 
 # df = pd.read_csv("/Users/macbook/Desktop/EECS545/545finalproject/Geneformer_project/Datasets/mouse_brain_processed_RNA.csv")
 # adata = sc.read_h5ad("/Users/macbook/Desktop/EECS545/545finalproject/Geneformer_project/Datasets/mouse_brain1.h5ad")
-adata = sc.read_h5ad("/Users/macbook/Desktop/EECS545/545finalproject/Geneformer_project/Datasets/adata_pmbc_10k.h5ad")
+adata = sc.read_h5ad("/Users/macbook/Desktop/EECS545/545finalproject/Geneformer_project/Datasets/filtered_ms_adata.h5ad")
 
 
 
